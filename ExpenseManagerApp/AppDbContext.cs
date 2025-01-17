@@ -17,7 +17,7 @@ namespace ExpenseManagerApp
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Wskazanie pliku bazy danych SQLite
-            optionsBuilder.UseSqlite("Data Source = scieżka do bazy appdata.db");
+            optionsBuilder.UseSqlite("Data Source = \"..\\..\\..\\appdata.db\"");
         }
 
     }
